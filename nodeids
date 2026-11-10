@@ -1,0 +1,11 @@
+[
+  "tests/test_api.py::test_health",
+  "tests/test_cache.py::test_cache_degrades_without_redis",
+  "tests/test_cache.py::test_cache_key_is_deterministic_and_provider_specific",
+  "tests/test_config.py::test_production_requires_both_provider_keys",
+  "tests/test_config.py::test_production_requires_gateway_key",
+  "tests/test_router.py::test_code_keyword_routes_to_groq",
+  "tests/test_router.py::test_code_tasks_route_to_groq",
+  "tests/test_router.py::test_fast_tasks_route_to_gemini",
+  "tests/test_router.py::test_long_prompts_route_to_gemini"
+]
